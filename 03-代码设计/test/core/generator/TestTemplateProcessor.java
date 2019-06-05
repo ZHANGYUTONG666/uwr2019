@@ -95,7 +95,7 @@ public class TestTemplateProcessor implements DataSourceType{
 		PowerMock.mockStatic(DataSourceConfig.class);
 		EasyMock.expect(DataSourceConfig.newInstance()).andStubReturn(dsc);
 
-        // 这里写代码
+        // 
         //
         //------------------------------------------------
 		//5. 重放所有的行为。
